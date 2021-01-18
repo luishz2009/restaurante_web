@@ -1,0 +1,79 @@
+.galeria_img{
+    object-fit: cover;          /* Para que las imágenes no se estiren */
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.5s;       /* Para darle un efecto de transición cuando se pasa el mouse */
+}
+.galeria_img:hover{
+    transform: scale(1.05);         /* Para que la imagen se agrande un poco al pasar el mouse */
+}
+.img_big{
+    height: 400px;
+
+}
+.img_small{
+    height: 200px;
+}
+.modal{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;                /* Para que la imagen quede fija al desplazar el mouse */
+    top: 0;                         /* top y left para fijar su posición */
+    left: 0;
+    z-index: 10000;
+    display: none;                  /* Porque el modal por defecto está oculto. Sólo aparece cuando doy click a una imagen */
+}
+.modal_content{
+    display: flex;                  /* Para poder alinearlo más rápido */ 
+    justify-content: center;        /* Para alinearlo horizontalmente */
+    align-items: center;            /* Para alinearlo verticalmente */
+}
+.modal_img{
+    width: 50%;
+    margin-top: 50px;
+    
+}
+.modal_boton{                      /* El botón de la X */ 
+    position: absolute;            /* Para que pierda su posición */
+    top: 10px;                     /* 10px de arriba hacia abajo */
+    right: 10px;                   /* 10px para que quede a la derecha */
+    color: white;
+    cursor: pointer;
+    background: #de423a;        /* Color de fondo del boton */
+    width: 50px;
+    height: 50px;
+    line-height: 50px;            /* Para que la x quede centrada verticalmente */
+    text-align: center;           /* Para que la x quede centrada horizontalmente */
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.modal-open{
+    display: block;                 /* Para mostrar el modal (fondo oscuro) */
+}
+@media screen and (min-width: 480px){
+        
+    .modal_img{
+        width: 80%;
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width: 768px){
+        
+    .modal_img{
+        width: 60%;
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+        
+    .modal_img{
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}

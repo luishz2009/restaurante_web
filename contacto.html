@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto | Su Restaurante</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/font.css">
+    <!-- <link rel="stylesheet" href="https://file.myfontastic.com/3E5wdVxcivixeTpiFSJR28/icons.css"> -->
+    <link rel="stylesheet" href="fontawesome-web/css/all.min.css">
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat|Pacifico&display=swap');
+    </style> -->
+
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav">
+            <div class="container container-flex">
+                <span class="icon-three-bars" id="btnmenu"></span>
+                <ul class="menu" id="menu">
+                    <li class="menu_item"><a href="http://localhost:8081/restaurante_web/" class="menu_link">Inicio</a>
+                    </li>
+                    <li class="menu_item"><a href="nosotros.html" class="menu_link">Nosotros</a></li>
+                    <li class="menu_item"><a href="galeria.html" class="menu_link">Galeria</a></li>
+                    <li class="menu_item"><a href="contacto.html" class="menu_link menu_link-select">Contacto</a></li>
+                </ul>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/" target="_blank" class="social-icon_link"><span
+                            class="icon-facebook"></span></a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon_link"><span
+                            class="icon-twitter"></span></a>
+                    <a href="https://www.gmail.com" target="_blank" class="social-icon_link"><span
+                            class="icon-letter-mail"></span></a>
+                </div>
+            </div>
+        </nav>
+        <div class="container container-flex">
+            <div class="logo-container column column-50">
+                <h1 class="logo">Su Restaurante </h1>
+            </div>
+            <div class="main-header_contactInfo column column-50">
+                <p class="main-header_contactInfo_phone">
+                    <span class="icon-telephone"><b></b> 275-30-90</span>
+                </p>
+                <p class="main-header_contactInfo_address">
+                    <span class="icon-location">Cr 48 Manchester-Bello</span>
+                </p>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="banner">
+        <img src="img/mesero2.jpg" alt="">
+        <div class="banner_content">Contacte con nosotros</div>
+    </section>
+    <main class="main">
+        <section class="group contact">
+            <h2 class="group_title">Contáctenos</h2>
+            <div class="container container-flex">
+                <div class="contact-information column column-50">
+                    <h3 class="column_title">Información de contacto</h3>
+                    <p class="column_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nulla
+                        perferendis reiciendis veniam? Quo impedit sed aliquam ipsa dolores, nulla, consequatur at
+                        cupiditate, quae eius exercitationem nemo laboriosam. Dicta, ut. </p>
+                    <p class="column_txt"><span class="icon-phone"></span> Teléfono: 511-22-33</p>
+                    <p class="column_txt"><span class="icon-phone"></span>Móvil: 350-268-22-33</p>
+                    <p class="column_txt"><span class="icon-location"></span>Centro Ccial Puerta del Norte L.104</p>
+                    <p class="column_txt"><span class="icon-mail"></span>consultas@surestaurante.com</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/" target="_blank" class="social-icon_link"><span
+                                class="icon-facebook"></span></a>
+                        <a href="https://twitter.com" target="_blank"><span class="icon-twitter"></span></a>
+                        <a href="https://www.gmail.com" target="_blank" class="social-icon_link"><span
+                                class="icon-mail"></span></a>
+                    </div>
+                </div>
+                <form action="enviar_correo.php" method="POST" class="formulario column column-50">
+                    <label for="" class="formulario_label">Nombre:</label>
+                    <input type="text" class="formulario_input-txt" name="nombre" placeholder="Tu nombre" required>
+                    <label for="" class="formulario_label">Correo:</label>
+                    <input type="text" class="formulario_input-txt" name="correo" placeholder="example@tucorreo.com"
+                        required>
+                    <label for="" class="formulario_label">Teléfono:</label>
+                    <input type="text" class="formulario_input-txt" name="telefono" placeholder="telefono" required>
+                    <label for="" class="formulario_label">Mensaje:</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario_textarea" required></textarea>
+                    <input type="submit" value="Enviar" class="btn formulario_btn">
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container container-flex">
+            <div class="column column-33">
+                <h2 class="column_title">¿Porqué visitarnos?</h2>
+                <p class="column_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a unde adipisci
+                    quia beatae cumque magnam perferendis, corrupti animi quidem eaque laboriosam laborum impedit nisi
+                    id vero aspernatur exercitationem culpa.</p>
+            </div>
+            <div class="column column-33">
+                <h2 class="column_title">Contáctanos</h2>
+                <p class="column_txt">Cr 48 Manchester-Bello</p>
+                <p class="column_txt">Teléfono: 275-30-90</p>
+                <p class="column_txt">consultas@surestaurante.com</p>
+            </div>
+            <div class="column column-33">
+                <h2 class="column_title">Síguenos en nuestras redes</h2>
+                <p class="column_txt"><a href="https://www.facebook.com/" target="_blank"
+                        class="icon-facebook">Facebook</a> </p>
+                <p class="column_txt"><a href="https://twitter.com" target="_blank" class="icon-twitter">Síguenos en
+                        twitter</a> </p>
+                <p class="column_txt"><a href="https://www.youtube.com" target="_blank" class="icon-youtube-play">Visita
+                        nuestro canal</a></p>
+            </div>
+            <p class="copy">@ 2019 Su Restaurante | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>

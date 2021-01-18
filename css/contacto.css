@@ -1,0 +1,73 @@
+.contact-information{
+    padding: 10px;
+    padding-top: 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #de423a;
+}
+.contact-information .column_title{
+    font-family: 'Pacifico',cursive;
+    font-weight: 100;
+}
+.contact-information [class*="icon-"]{      /* Para los íconos junto a los párrafos */
+    font-size: 1.3em;
+    margin-right: 7px;
+    position: relative;
+    top: 5px;
+}
+.contact-information .social-icon{          /* Para los íconos de las redes sociales */
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.contact-information .social-icon [class*="icon-"]{      /* Todos los íconos que están en social-icon y que a la vez
+                                                             están dentro de contact-information */   
+    background: black;
+    color: white;
+    margin-left: 0;
+    margin-right: 15px;
+} 
+.formulario{
+    padding: 10px;
+    padding-top: 0;
+}
+.formulario_label, .formulario_input-txt, .formulario_textarea{
+    display: block;
+    width: 100%;
+}
+.formulario_input-txt{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.formulario_textarea{
+    min-height: 100px;
+    min-width: 100%;
+    max-height: 200px;
+    max-width: 100%;
+}
+.formulario_btn{
+    border: none;                   /* Para quitar el borde azul alrededor del botón */
+    cursor: pointer;
+    font-size: 1em;
+}
+@media screen and (min-width:480px){ 
+    .contact .container-flex{
+        align-items: flex-start;    /* Para que la alineación vertical quede al inicio */
+    }
+    .contact-information p{
+        font-size: .8em;
+    }
+    .contact-information{
+        border-right: 1px solid #de423a;
+        border-bottom: none;        
+    }
+
+}
+@media screen and (min-width:768px){
+    
+    .contact-information p{
+        font-size: 1em;
+    }
+    .contact-information .column_title{
+        font-size: 1.5em;
+    }
+
+} 

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galería | Su Restaurante</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/font.css">
+    <!-- <link rel="stylesheet" href="https://file.myfontastic.com/3E5wdVxcivixeTpiFSJR28/icons.css"> -->
+    <link rel="stylesheet" href="fontawesome-web/css/all.min.css">
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat|Pacifico&display=swap');
+    </style> -->
+
+</head>
+
+<body>
+    <div class="modal" id="modal">
+        <div class="modal_content">
+            <img src="" alt="" class="modal_img" id="modal_img">
+        </div>
+        <div class="modal_boton" id="modal_boton">X</div>
+    </div>
+
+    <header class="main-header">
+        <nav class="main-nav">
+            <div class="container container-flex">
+                <span class="icon-three-bars" id="btnmenu"></span>
+                <ul class="menu" id="menu">
+                    <li class="menu_item"><a href="http://localhost:8081/restaurante_web/" class="menu_link">Inicio</a>
+                    </li>
+                    <li class="menu_item"><a href="nosotros.html" class="menu_link">Nosotros</a></li>
+                    <li class="menu_item"><a href="galeria.html" class="menu_link menu_link-select">Galeria</a></li>
+                    <li class="menu_item"><a href="contacto.html" class="menu_link">Contacto</a></li>
+                </ul>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/" target="_blank" class="social-icon_link"><span
+                            class="icon-facebook"></span></a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon_link"><span
+                            class="icon-twitter"></span></a>
+                    <a href="https://www.gmail.com" target="_blank" class="social-icon_link"><span
+                            class="icon-letter-mail"></span></a>
+                </div>
+            </div>
+        </nav>
+        <div class="container container-flex">
+            <div class="logo-container column column-50">
+                <h1 class="logo">Su Restaurante </h1>
+            </div>
+            <div class="main-header_contactInfo column column-50">
+                <p class="main-header_contactInfo_phone">
+                    <span class="icon-telephone"><b></b> 275-30-90</span>
+                </p>
+                <p class="main-header_contactInfo_address">
+                    <span class="icon-location">Cr 48 Manchester-Bello</span>
+                </p>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="banner">
+        <img src="img/plato12.jpg" alt="">
+        <div class="banner_content">El mejor menú para su gusto</div>
+    </section>
+    <main class="main">
+        <div class="group galeria">
+            <h2 class="group_title">Nuestra galeria</h2>
+            <div class="container container-flex">
+                <div class="column column-50-25">
+                    <img src="img/hamburguesa3.jpg" alt="" class="galeria_img img_big">
+                    <img src="img/bandeja.jpg" alt="" class="galeria_img img_small">
+                </div>
+                <div class="column column-50-25">
+                    <img src="img/torta.jpg" alt="" class="galeria_img img_small">
+                    <img src="img/plato1.jpg" alt="" class="galeria_img img_big">
+                </div>
+                <div class="column column-50-25">
+                    <img src="img/plato2.jpg" alt="" class="galeria_img img_big">
+                    <img src="img/plato4.jpg" alt="" class="galeria_img img_small">
+                </div>
+                <div class="column column-50-25">
+                    <img src="img/plato12.jpg" alt="" class="galeria_img img_small">
+                    <img src="img/plato13.jpg" alt="" class="galeria_img img_big">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container container-flex">
+            <div class="column column-33">
+                <h2 class="column_title">¿Porqué visitarnos?</h2>
+                <p class="column_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a unde adipisci
+                    quia beatae cumque magnam perferendis, corrupti animi quidem eaque laboriosam laborum impedit nisi
+                    id vero aspernatur exercitationem culpa.</p>
+            </div>
+            <div class="column column-33">
+                <h2 class="column_title">Contáctanos</h2>
+                <p class="column_txt">Cr 48 Manchester-Bello</p>
+                <p class="column_txt">Teléfono: 275-30-90</p>
+                <p class="column_txt">consultas@surestaurante.com</p>
+            </div>
+            <div class="column column-33">
+                <h2 class="column_title">Síguenos en nuestras redes</h2>
+                <p class="column_txt"><a href="https://www.facebook.com/" target="_blank"
+                        class="icon-facebook">Facebook</a> </p>
+                <p class="column_txt"><a href="https://twitter.com" target="_blank" class="icon-twitter">Síguenos en
+                        twitter</a> </p>
+                <p class="column_txt"><a href="https://www.youtube.com" target="_blank" class="icon-youtube-play">Visita
+                        nuestro canal</a></p>
+            </div>
+            <p class="copy">@ 2019 Su Restaurante | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
