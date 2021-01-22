@@ -2,3 +2,6 @@ RESTAURANTE WEB
 
 Esta es una página web que hice para resturantes.
 Esta página contrendrá el menú con los platos del día.
+Nuestra página web de restaurantes podrá verse en la web
+en la siguiente ruta:
+https://luishz2009.github.io/restaurante_web/.
